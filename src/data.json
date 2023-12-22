@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Admin",
+      "email": "admin@admin.com",
+      "password": "$2a$08$xOPPmjPcWmJLnOckEAooyeLKb0MK06GF.i//Y/ctk7psWxAM5qija",
+      "notHashedPassword": "Admin1@",
+      "image": "https://www.shutterstock.com/image-photo/profile-view-cute-young-red-600nw-2242222153.jpg",
+      "registerDate": "2019-03-25"
+    },
+    {
+      "id": 2,
+      "userName": "Mrs Cat",
+      "email": "cat@cat.com",
+      "password": "$2a$08$IeZCXrqRvZZDSw4nekc9eenGw14ah2bUPsXSGEkxGQ40OJcz4BBQW",
+      "notHashedPassword": "KittyCat7*",
+      "image": "https://t4.ftcdn.net/jpg/01/19/05/71/360_F_119057199_YSS8CAnnkvQCzPhZOj3aYfNsx0CQ41sT.jpg",
+      "registerDate": "2022-05-07"
+    },
+    {
+      "id": "9d6a79f8-83f1-492a-9ac0-5b6eab4d29d5",
+      "userName": "Banana",
+      "email": "banana@banana.com",
+      "notHashedPassword": "Banana1*",
+      "password": "$2a$08$jWteqx3lM6uJcMehlKEuJOVzl9wGXa3Bw5nQLCynAPo/2DrC2hX5.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/640px-Banana-Single.jpg",
+      "registerDate": "2023-12-01"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "userName": "Mrs Cat",
+      "userEmail": "cat@cat.com",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61pjkRm9LaL.jpg",
+      "name": "Dino plushie",
+      "description": "Very soft, lovable plushie, perfect as a gift for all ages.",
+      "colors": "Green, pink, blue, purple",
+      "created": "2022-06-01",
+      "edited": false,
+      "editedDate": ""
+    },
+    {
+      "id": 2,
+      "userId": "9d6a79f8-83f1-492a-9ac0-5b6eab4d29d5",
+      "userName": "Banana",
+      "userEmail": "banana@banana.com",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/41aqrciiw3L._AC_UF894,1000_QL80_.jpg",
+      "name": "Cat plushie",
+      "description": "Lovable, soft cat plushie that you can also use as a pillow.",
+      "colors": "Black, white, orange, gray",
+      "created": "2023-12-03",
+      "edited": false,
+      "editedDate": ""
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "userName": "Admin",
+      "userEmail": "admin@admin.com",
+      "image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61ZRlCm334L.jpg",
+      "name": "Snake plushie",
+      "description": "Long noodle plushie",
+      "colors": "Green, pink, red, purple, yellow, orange",
+      "created": "2020-03-03",
+      "edited": true,
+      "editedDate": "2023-12-20"
+    },
+    {
+      "id": "ca3c4486-a8c7-43d5-b2d0-20829549e20c",
+      "userId": "9d6a79f8-83f1-492a-9ac0-5b6eab4d29d5",
+      "userEmai": "banana@banana.com",
+      "image": "https://i.pinimg.com/originals/a2/98/8d/a2988decbf45a1c0b4a3baa6a1eb3ab4.jpg",
+      "name": "Crochet bee plushie",
+      "description": "Very cute..",
+      "colors": "Yellow, pink, purple",
+      "created": "2023-12-20",
+      "edited": false,
+      "editedDate": ""
+    }
+  ]
+}
